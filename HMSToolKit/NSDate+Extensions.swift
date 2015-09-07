@@ -13,6 +13,7 @@ public extension NSDate {
         return NSDate().normalizedDateNoon()
     }
 
+    // Useful if you have stuff that can happen only once per day. Using noon as the date is less error-prone than midnight. Learned that in a WWDC Session video, I think.
     func normalizedDateNoon() -> NSDate {
         let cal = NSCalendar.currentCalendar()
         let components = cal.components([NSCalendarUnit.Day, NSCalendarUnit.Month, NSCalendarUnit.Year], fromDate: self)
