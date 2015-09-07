@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF747C11B9E387E00AF5730 /* HMSToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF747C01B9E387E00AF5730 /* HMSToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECF747C81B9E387F00AF5730 /* HMSToolKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF747BD1B9E387E00AF5730 /* HMSToolKit.framework */; settings = {ASSET_TAGS = (); }; };
+		ECF747CD1B9E387F00AF5730 /* HMSToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF747CC1B9E387F00AF5730 /* HMSToolKitTests.swift */; };
+		ECF747E31B9E398400AF5730 /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF747E21B9E398400AF5730 /* NSDate+Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF747C91B9E387F00AF5730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF747B41B9E387E00AF5730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF747BC1B9E387E00AF5730;
+			remoteInfo = HMSToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF747BD1B9E387E00AF5730 /* HMSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF747C01B9E387E00AF5730 /* HMSToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMSToolKit.h; sourceTree = "<group>"; };
+		ECF747C21B9E387E00AF5730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF747C71B9E387F00AF5730 /* HMSToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMSToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF747CC1B9E387F00AF5730 /* HMSToolKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSToolKitTests.swift; sourceTree = "<group>"; };
+		ECF747CE1B9E387F00AF5730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF747E21B9E398400AF5730 /* NSDate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF747B91B9E387E00AF5730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF747C41B9E387F00AF5730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF747C81B9E387F00AF5730 /* HMSToolKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF747B31B9E387E00AF5730 = {
+			isa = PBXGroup;
+			children = (
+				ECF747BF1B9E387E00AF5730 /* HMSToolKit */,
+				ECF747CB1B9E387F00AF5730 /* HMSToolKitTests */,
+				ECF747BE1B9E387E00AF5730 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF747BE1B9E387E00AF5730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF747BD1B9E387E00AF5730 /* HMSToolKit.framework */,
+				ECF747C71B9E387F00AF5730 /* HMSToolKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF747BF1B9E387E00AF5730 /* HMSToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				ECF747C01B9E387E00AF5730 /* HMSToolKit.h */,
+				ECF747C21B9E387E00AF5730 /* Info.plist */,
+				ECF747E21B9E398400AF5730 /* NSDate+Extensions.swift */,
+			);
+			path = HMSToolKit;
+			sourceTree = "<group>";
+		};
+		ECF747CB1B9E387F00AF5730 /* HMSToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF747CC1B9E387F00AF5730 /* HMSToolKitTests.swift */,
+				ECF747CE1B9E387F00AF5730 /* Info.plist */,
+			);
+			path = HMSToolKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ECF747BA1B9E387E00AF5730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF747C11B9E387E00AF5730 /* HMSToolKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ECF747BC1B9E387E00AF5730 /* HMSToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF747D11B9E387F00AF5730 /* Build configuration list for PBXNativeTarget "HMSToolKit" */;
+			buildPhases = (
+				ECF747B81B9E387E00AF5730 /* Sources */,
+				ECF747B91B9E387E00AF5730 /* Frameworks */,
+				ECF747BA1B9E387E00AF5730 /* Headers */,
+				ECF747BB1B9E387E00AF5730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSToolKit;
+			productName = HMSToolKit;
+			productReference = ECF747BD1B9E387E00AF5730 /* HMSToolKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECF747C61B9E387F00AF5730 /* HMSToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF747D41B9E387F00AF5730 /* Build configuration list for PBXNativeTarget "HMSToolKitTests" */;
+			buildPhases = (
+				ECF747C31B9E387F00AF5730 /* Sources */,
+				ECF747C41B9E387F00AF5730 /* Frameworks */,
+				ECF747C51B9E387F00AF5730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF747CA1B9E387F00AF5730 /* PBXTargetDependency */,
+			);
+			name = HMSToolKitTests;
+			productName = HMSToolKitTests;
+			productReference = ECF747C71B9E387F00AF5730 /* HMSToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF747B41B9E387E00AF5730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hackmops;
+				TargetAttributes = {
+					ECF747BC1B9E387E00AF5730 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					ECF747C61B9E387F00AF5730 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = ECF747B71B9E387E00AF5730 /* Build configuration list for PBXProject "HMSToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECF747B31B9E387E00AF5730;
+			productRefGroup = ECF747BE1B9E387E00AF5730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF747BC1B9E387E00AF5730 /* HMSToolKit */,
+				ECF747C61B9E387F00AF5730 /* HMSToolKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF747BB1B9E387E00AF5730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF747C51B9E387F00AF5730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF747B81B9E387E00AF5730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF747E31B9E398400AF5730 /* NSDate+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF747C31B9E387F00AF5730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF747CD1B9E387F00AF5730 /* HMSToolKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF747CA1B9E387F00AF5730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF747BC1B9E387E00AF5730 /* HMSToolKit */;
+			targetProxy = ECF747C91B9E387F00AF5730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECF747CF1B9E387F00AF5730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECF747D01B9E387F00AF5730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECF747D21B9E387F00AF5730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HMSToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmops.HMSToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECF747D31B9E387F00AF5730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HMSToolKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmops.HMSToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ECF747D51B9E387F00AF5730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMSToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmops.HMSToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECF747D61B9E387F00AF5730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HMSToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackmops.HMSToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF747B71B9E387E00AF5730 /* Build configuration list for PBXProject "HMSToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF747CF1B9E387F00AF5730 /* Debug */,
+				ECF747D01B9E387F00AF5730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF747D11B9E387F00AF5730 /* Build configuration list for PBXNativeTarget "HMSToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF747D21B9E387F00AF5730 /* Debug */,
+				ECF747D31B9E387F00AF5730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF747D41B9E387F00AF5730 /* Build configuration list for PBXNativeTarget "HMSToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF747D51B9E387F00AF5730 /* Debug */,
+				ECF747D61B9E387F00AF5730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF747B41B9E387E00AF5730 /* Project object */;
+}
